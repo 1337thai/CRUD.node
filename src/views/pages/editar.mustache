@@ -1,0 +1,19 @@
+{{>partials/header}}
+
+<h1>Editar usuários</h1>
+
+<form action="/editar/{{id}}" method="post">
+
+    🧜‍♀️ Nome:<br>
+    <input type="text" name="nome" id="nome" value="{{user.nome}}"><br>
+    Email:<br>
+    <input type="text" id="email" name="email" value="{{user.nome}}"><br>
+    <input type="submit" value="Editar">
+
+
+
+</form>
+
+🤞👉<a href="/usuarios">Clique aqui</a> para voltar a página de usuários
+ 
+{{>partials/footer}}
